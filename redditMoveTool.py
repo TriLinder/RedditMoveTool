@@ -14,7 +14,7 @@ print("Reddit Move Tool")
 print("By TriLinder\n")
 
 srcUsername = input("Please enter the username of the source Reddit account: ").strip("u/").strip()
-srcPswd = input("Please input %s's password: " % (srcUsername))
+srcPswd = input("Please input %s's password NOTE: Your password will be visible, make sure nobody is watching you: " % (srcUsername))
 srcHas2FA = input("Does %s have 2FA on? y/N: " % (srcUsername)).lower() == "y"
 
 print("\n-------\n\nPlease log in as %s and then go to https://www.reddit.com/prefs/apps" % (srcUsername))
@@ -57,7 +57,7 @@ print("\n%s connected!" % (srcUsername))
 #------------------------------
 
 dstUsername = input("\n\nPlease enter the username of the destination Reddit account: ").strip("u/").strip()
-dstPswd = input("Please input %s's password: " % (dstUsername))
+dstPswd = input("Please input %s's password NOTE: Your password will be visible, make sure nobody is watching you: " % (dstUsername))
 dstHas2FA = input("Does %s have 2FA on? y/N: " % (dstUsername)).lower() == "y"
 
 print("\n-------\nPlease log in as %s and then go to https://www.reddit.com/prefs/apps" % (dstUsername))
