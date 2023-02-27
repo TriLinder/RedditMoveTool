@@ -1,3 +1,9 @@
+<h1 align="center">DISCONTINUED!</h1>
+
+<p align="center"><b>Use <a href="https://github.com/TriLinder/RedditManager">RedditManager</a> instead.</b></p>
+
+---
+
 # Reddit Move Tool
 
 Reddit Move Tool is an easy to use Python tool, to transfer your subscribed subreddits and saved items to a new Reddit account.
